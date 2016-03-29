@@ -1,0 +1,18 @@
+EN MAYUSCU.
+
+$_POST  ....privado...
+$_GET...publico.. lo muestra ademas en la barra de direc
+
+
+http...transporta la informacion entre cliente/servidor .. puede estar encripatado o no.
+
+html siempre recargo pagina.. php no pq cuando el html lo llama lo carga solo
+
+ESTAR EN NULL != DE ESTAR VACIO.....NULL = VARIABLE NO CREADA(REFERENCIA NO ENCONTRADA)
+
+php// --- isset( ) me devuelve true cuando la variable es != null 
+
+	isset($_POST) ... suiempre vale true pq como es variable global siempre esta setiada,
+
+		isset($_POST[nombre]) ESTO SI FUNCIONA.
+			ADEMAS TENGO Q PREGUNTAR SI ESTA VACIA, ENTONCES SI HACE ALGO
